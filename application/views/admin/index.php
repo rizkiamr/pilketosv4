@@ -185,7 +185,7 @@
                                 <?php endforeach;?>],
                          datasets: [
                            {
-                             label: ["My First dataget"],
+                             label: ["jumlah"],
                              data: [ <?php foreach($ketua2 as $daftar): ?>
                                     "<?= $daftar['jumlah']?>",
 
