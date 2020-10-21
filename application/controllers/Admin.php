@@ -35,7 +35,7 @@ class Admin extends CI_Controller{
             $this->load->view('admin/login');
             $this->load->view('templates/footer');
 
-            if( $this->input->post('username') == 'admin' && $this->input->post('password') == 'osis_smea' ){
+            if( $this->input->post('username') == 'osis' && $this->input->post('password') == 'pilketoshokyahokya' ){
                 $this->session->login = true;
                 redirect('admin/index');
                 
