@@ -201,7 +201,14 @@
                          ]
                        },
                        options: {
-                         responsive: true
+                         responsive: true,
+						 	scales:{
+						 		yAxes: [{
+									ticks : {
+										min: 0
+									}
+								}]
+						 	}
                        }
                      });
                
