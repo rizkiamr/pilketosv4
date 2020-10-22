@@ -10,7 +10,10 @@
         }
         
         public function login(){
-            
+            if($this->session->login_user){
+				redirect('user/index');
+				
+			}            
             
 
             $data['judul'] = 'Login';
